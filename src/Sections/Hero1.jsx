@@ -2,8 +2,16 @@
 import { useState } from "react";
 import { Link } from "react-router";
 function Hero1() {
-  const [isOpen, setIsOpen] = useState(false);
-  const toggleSidebar = () => setIsOpen(!isOpen);
+  const [open, setOpen] = useState(false);
+  const toggleSidebar = () => {
+    if (!open) {
+      document.body.classList.add("no-scroll");
+    } else {
+      document.body.classList.remove("no-scroll");
+    }
+
+    setOpen(!open);
+  };
   return (
     <div className="hero1-container">
       <div className="navBar">
@@ -26,7 +34,7 @@ function Hero1() {
           ☰
         </div>
       </div>
-      <div className={`sidebar ${isOpen ? "open" : ""}`}>
+      <div className={`sidebar ${open ? "open" : ""}`}>
         <div className="navImages">
           <img
             src="https://i.ibb.co/v41yK3Dz/Logo-d39aec24-b217-4f53-87ef-d39c0ab57622.png"
@@ -52,7 +60,7 @@ function Hero1() {
           <Link className="login">Login</Link>
         </div>
       </div>
-      {isOpen && <div className="overlay" onClick={toggleSidebar}></div>}
+      {open && <div className="overlay" onClick={toggleSidebar}></div>}
     </div>
   );
 }

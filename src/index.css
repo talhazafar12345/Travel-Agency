@@ -9,6 +9,7 @@
 body {
   overflow-x: hidden !important;
 
+
 }
 
 .navBar {
@@ -84,14 +85,14 @@ body {
 }
 
 
-.secImg{
+.secImg {
   background-image: url("https://solo-elementor.travelerwp.com/wp-content/uploads/2023/07/banner-1.png");
   background-size: cover;
 
   height: 770px;
 }
 
-.secImg h2{
+.secImg h2 {
   text-align: center;
   padding-top: 210px;
   font-size: 60px;
@@ -100,7 +101,7 @@ body {
   margin: auto;
 }
 
-.secImg p{
+.secImg p {
   text-align: center;
   font-size: 20px;
   color: #ffff;
@@ -111,11 +112,12 @@ body {
   color: #dcdfcc;
 }
 
-.secImg .psg{
+.secImg .psg {
   display: none;
 }
 
-.btn{text-align: center;
+.btn {
+  text-align: center;
 
 }
 
@@ -134,28 +136,28 @@ body {
 
 .btn button:hover {
   transform: translateY(5px);
-    box-shadow: 1px 4px 1px 1px #df5334;
+  box-shadow: 1px 4px 1px 1px #df5334;
 
 }
 
-.gre{
+.gre {
   text-align: center;
   margin-top: 50px;
   color: #1a2b48;
 }
 
-.gre h1{
+.gre h1 {
   margin-top: 10px;
 }
 
-.gre p{
+.gre p {
   font-family: cursive;
   color: #5cbda2;
   font-size: 23px;
   margin-top: 10px;
 }
 
-.gre img{
+.gre img {
   margin-top: 25px;
 }
 
@@ -169,6 +171,9 @@ body {
 @media (max-width: 500px) {
 
 
+  body.no-scroll {
+    overflow: hidden;
+  }
 
   .navLinks,
   .navButton .login {
@@ -181,7 +186,7 @@ body {
     cursor: pointer;
     color: black;
     margin-right: 20px;
-  
+
   }
 
   .navBar {
@@ -201,8 +206,9 @@ body {
     padding: 20px;
     transition: left 0.35s ease;
     z-index: 200;
-    scroll-behavior: 0;
+
   }
+
 
   .sidebar.open {
     left: 0;
@@ -221,7 +227,7 @@ body {
     padding-top: 10px;
     position: relative;
     right: 48px;
- 
+
   }
 
   .close-btn {
@@ -245,7 +251,7 @@ body {
   }
 
   .side-link:hover {
-    color:  #ec927e;
+    color: #ec927e;
   }
 
 
@@ -260,43 +266,43 @@ body {
     text-decoration: none;
   }
 
-  .side-buttons{
-    margin-top: 10px ;
+  .side-buttons {
+    margin-top: 10px;
   }
 
   .side-buttons .login:hover {
-    color:  #ec927e
+    color: #ec927e
   }
 
- .secImg {
-    height: auto;                 
+  .secImg {
+    height: auto;
     background-position: center;
     padding-bottom: 60px;
-  
-  }
-  
- 
-  .secImg h2{
 
-    font-size: 28px;
+  }
+
+
+  .secImg h2 {
+
+    font-size: 32px;
     width: 90%;
     padding-top: 60px;
     line-height: 1.2;
-    font-weight:900;
+    font-weight: 900;
   }
 
-  .secImg p{
+  .secImg p {
     font-size: 17px;
     width: 90%;
   }
 
-  .btn button{
+  .btn button {
     margin-top: 18px;
     width: 50%;
-    
+
   }
 
-  .gre h1{
+  .gre h1 {
     font-size: 25px;
     width: 90%;
     margin: auto;
@@ -304,11 +310,15 @@ body {
     line-height: 1.6;
   }
 
-  .secImg .para{
+  .secImg .para {
     display: none;
   }
 
-  
+  .secImg .psg {
+    display: block;
+  }
+
+
 
 
 }
