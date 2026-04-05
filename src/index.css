@@ -87,18 +87,76 @@ body {
 .secImg{
   background-image: url("https://solo-elementor.travelerwp.com/wp-content/uploads/2023/07/banner-1.png");
   background-size: cover;
-  height: 700px;
+  height: 750px;
 }
 
 .secImg h2{
   text-align: center;
-  padding-top: 200px;
+  padding-top: 210px;
   font-size: 60px;
   color: #ffff;
   width: 60%;
   margin: auto;
+}
+
+.secImg p{
+  text-align: center;
+  font-size: 20px;
+  color: #ffff;
+  width: 50%;
+  margin: auto;
+  padding-top: 30px;
+  line-height: 1.7;
+  color: #dcdfcc;
+}
+
+.btn{text-align: center;
 
 }
+
+.btn button {
+  background-color: #ec927e;
+  border: none;
+  width: 160px;
+  height: 50px;
+  border-radius: 50px;
+  color: white;
+  font-size: 18px;
+  margin-top: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn button:hover {
+  transform: translateY(5px);
+    box-shadow: 1px 4px 1px 1px #df5334;
+
+}
+
+.gre{
+  text-align: center;
+  margin-top: 50px;
+  color: #1a2b48;
+}
+
+.gre h1{
+  margin-top: 10px;
+}
+
+.gre p{
+  font-family: cursive;
+  color: #5cbda2;
+  font-size: 23px;
+  margin-top: 10px;
+}
+
+.gre img{
+  margin-top: 25px;
+}
+
+
+
+
 
 
 
@@ -206,18 +264,43 @@ body {
   }
 
  .secImg {
-    width: 100%;        
-    background-position: center; 
-    height: 400px;
+    height: auto;                 
+    background-position: center;
+    padding-bottom: 60px;
+  
   }
-
+  
  
   .secImg h2{
 
-    font-size: 45px;
+    font-size: 32px;
     width: 90%;
-    padding-top: 100px;
+    padding-top: 60px;
+    line-height: 1.2;
+    font-weight:900;
   }
+
+  .secImg p{
+    font-size: 16px;
+    width: 90%;
+    padding-top: 20px;
+  }
+
+  .btn button{
+    margin-top: 16px;
+    width: 50%;
+    
+  }
+
+  .gre h1{
+    font-size: 25px;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    line-height: 1.6;
+  }
+
+  
 
 
 }
