@@ -87,7 +87,8 @@ body {
 .secImg{
   background-image: url("https://solo-elementor.travelerwp.com/wp-content/uploads/2023/07/banner-1.png");
   background-size: cover;
-  height: 750px;
+
+  height: 770px;
 }
 
 .secImg h2{
@@ -108,6 +109,10 @@ body {
   padding-top: 30px;
   line-height: 1.7;
   color: #dcdfcc;
+}
+
+.secImg .psg{
+  display: none;
 }
 
 .btn{text-align: center;
@@ -273,7 +278,7 @@ body {
  
   .secImg h2{
 
-    font-size: 32px;
+    font-size: 28px;
     width: 90%;
     padding-top: 60px;
     line-height: 1.2;
@@ -281,13 +286,12 @@ body {
   }
 
   .secImg p{
-    font-size: 16px;
+    font-size: 17px;
     width: 90%;
-    padding-top: 20px;
   }
 
   .btn button{
-    margin-top: 16px;
+    margin-top: 18px;
     width: 50%;
     
   }
@@ -298,6 +302,10 @@ body {
     margin: auto;
     margin-top: 10px;
     line-height: 1.6;
+  }
+
+  .secImg .para{
+    display: none;
   }
 
   
