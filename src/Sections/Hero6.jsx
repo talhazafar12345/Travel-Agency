@@ -2,7 +2,9 @@
 
 function Hero6() {
     return (
+    
             <div className="main">
+
                 <div className="pic">
                     <img src="https://solo-elementor.travelerwp.com/wp-content/uploads/2015/01/12-450x300.png" alt="" />
                 </div>
@@ -60,9 +62,11 @@ function Hero6() {
                         <button>Book Now</button>
                     </div>
                 </div>
+
             </div>
+            
 
-
+    
     )
 }
 

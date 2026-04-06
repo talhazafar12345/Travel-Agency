@@ -1,12 +1,14 @@
 import Hero5 from "./Hero5"
 import Hero6 from "./Hero6"
+import Hero7 from "./Hero7"
 
 
 
 function Hero4() {
     return (
-     
+        <div className="bacc">
             <div className="mains">
+
                 <div className="main">
                     <div className="pic">
                         <img src="https://solo-elementor.travelerwp.com/wp-content/uploads/2015/01/3-3-450x300.png" alt="" />
@@ -63,11 +65,22 @@ function Hero4() {
                         <div className="finbtn">
                             <button>Book Now</button>
                         </div>
+
                     </div>
+
                 </div>
+
                 <Hero5 />
                 <Hero6 />
+                </div>
+                <div className="aaa">
+                <Hero7 />
+                </div>
+                
             </div>
+
+
+        
     )
 }
 
