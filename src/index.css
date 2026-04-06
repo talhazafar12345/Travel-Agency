@@ -86,9 +86,8 @@ body {
 
 
 .secImg {
-  background-image: url("https://solo-elementor.travelerwp.com/wp-content/uploads/2023/07/banner-1.png");
+  background-image: url("https://i.ibb.co/gL70LFw7/banner-1.png");
   background-size: cover;
-
   height: 770px;
 }
 
@@ -97,7 +96,7 @@ body {
   padding-top: 210px;
   font-size: 60px;
   color: #ffff;
-  width: 60%;
+  width: 50%;
   margin: auto;
 }
 
@@ -160,6 +159,196 @@ body {
 .gre img {
   margin-top: 25px;
 }
+
+
+.main{
+background-color:#ffffff;
+width: 360px;
+border-radius: 20px;
+height: 655px;
+position: relative;
+
+
+}
+
+.mains{
+  background-color: whitesmoke;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  margin-top: 50px;
+
+}
+
+
+.pic img{
+  border-radius: 20px;
+  width: 90%;
+  margin-top: 21px;
+  transition: all 0.3s ease;
+}
+
+.pic img:hover{
+  transform: translateY(-5px);
+}
+
+.pic{
+  text-align: center;
+}
+
+.ind{
+  position: absolute;
+  top: 40px;
+  color: white;
+  background-color: #b15de4;
+  width: 120px;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.vetm{
+  position: absolute;
+  top: 40px;
+  color: white;
+  background-color:#5cbda2;
+  width: 120px;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.thai{
+  position: absolute;
+  top: 40px;
+  color: white;
+  background-color:#ec9121;
+  width: 120px;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.bali{
+  margin-left: 20px;
+  font-size: 12px;
+  padding-top: 20px;
+  line-height: 1.3;
+}
+.bali p{
+  padding-top: 10px;
+  width: 95%;
+  color: gray;
+  line-height: 1.4;
+  font-size: 15px;
+}
+
+.wit{
+  width:90%;
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 1px;
+  background-color:silver;
+}
+
+.cal{
+  padding-top: 20px;
+  padding-left: 20px;
+  display: flex;
+  gap: 5px;
+}
+
+.dur h2{
+  font-size: 15px;
+  color: #23334f;
+  line-height: 1.5;
+}
+.dur p{
+  font-size: 15px;
+  color: gray;
+}
+
+.calendar{
+  font-size: 25px;
+  color: #ec927e;
+}
+
+.call{
+  display: flex;
+  gap: 60px;
+}
+
+.wits{
+  width: 90%;
+  margin-left: 20px;
+  height: 1px;
+  background-color:silver;
+  margin-top: 23px;
+}
+
+.dol{
+  text-decoration: line-through;
+  font-size: 20px;
+  font-weight: bolder;
+  padding-top: 20px;
+  padding-left: 20px;
+  color: silver;
+}
+
+.fin{
+  display: flex;
+  align-items: center;
+  gap: 120px;
+  padding-left: 20px;
+  padding-top: -20px;
+
+
+}
+
+.finbtn button{
+  background-color: #ec927e;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  width:130px;
+  height: 40px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+
+
+}
+
+
+.finbtn button:hover {
+  transform: translateY(5px);
+  box-shadow: 1px 4px 1px 1px #df5334;
+}
+
+.pra{
+  font-size: 25px;
+  font-weight: bolder;
+  color: #1a2b48;
+}
+
+
+
+
+
 
 
 
@@ -318,6 +507,34 @@ body {
     display: block;
   }
 
+  .mains{
+    flex-direction: column;
+    align-items: center;
+    
+
+  }
+
+  .main{
+    width: 91%;
+
+  }
+
+  .call{
+    gap: 40px;
+  }
+
+  .fin{
+    gap: 100px;
+  }
+
+  .bali h2{
+    width: 95%;
+  }
+
+  .finbtn button{
+    width: 120px;
+  }
+  
 
 
 

@@ -14,10 +14,6 @@ function Hero3() {
             <img src="https://solo-elementor.travelerwp.com/wp-content/uploads/2023/07/Vector.svg" alt="" />
            
         </div>
-
-
-
-
     </div>
   )
 }
