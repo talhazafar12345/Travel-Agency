@@ -486,6 +486,7 @@ body {
 .khe img{
   padding-top: 12px;
 }
+
 .khe p {
   color: #5cbda2;
   font-family: cursive;
@@ -567,6 +568,7 @@ body {
 
 .paradiv {
   display: flex;
+
 }
 
 .allflex {
