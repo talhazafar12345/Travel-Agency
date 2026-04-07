@@ -23,8 +23,8 @@ body {
 
 .navImage img {
   width: 240px;
- position: relative;
- right: 50px;
+  position: relative;
+  right: 50px;
 }
 
 .navLinks {
@@ -88,7 +88,7 @@ body {
 
 
 .secImg {
-  background-image: url("https://i.ibb.co/gL70LFw7/banner-1.png");
+  background-image: url("https://i.ibb.co/C5NXnf0m/pehl.jpg");
   background-size: cover;
   height: 770px;
 
@@ -164,22 +164,22 @@ body {
 }
 
 
-.main{
-background-color:#ffffff;
-width: 360px;
-border-radius: 20px;
-height: 655px;
-position: relative;
-box-shadow: 5px 5px 5px 5px silver;
-transition: all 0.3s ease;
-padding-top: 14px;
+.main {
+  background-color: #ffffff;
+  width: 360px;
+  border-radius: 20px;
+  height: 655px;
+  position: relative;
+  box-shadow: 5px 5px 5px 5px silver;
+  transition: all 0.3s ease;
+  padding-top: 14px;
 }
 
-.main:hover{
+.main:hover {
   transform: translateY(-10px);
 }
 
-.mains{
+.mains {
   gap: 30px;
   display: flex;
   justify-content: center;
@@ -187,27 +187,27 @@ padding-top: 14px;
 
 }
 
-.bacc{
+.bacc {
   padding-bottom: 40px;
   margin-top: -20px;
 }
 
 
-.pic img{
+.pic img {
   border-radius: 20px;
   width: 90%;
   transition: all 0.3s ease;
 }
 
-.pic img:hover{
+.pic img:hover {
   transform: translateY(-5px);
 }
 
-.pic{
+.pic {
   text-align: center;
 }
 
-.ind{
+.ind {
   position: absolute;
   top: 40px;
   color: white;
@@ -222,11 +222,11 @@ padding-top: 14px;
 
 }
 
-.vetm{
+.vetm {
   position: absolute;
   top: 40px;
   color: white;
-  background-color:#5cbda2;
+  background-color: #5cbda2;
   width: 120px;
   height: 30px;
   border-radius: 20px;
@@ -237,11 +237,11 @@ padding-top: 14px;
 
 }
 
-.thai{
+.thai {
   position: absolute;
   top: 40px;
   color: white;
-  background-color:#ec9121;
+  background-color: #ec9121;
   width: 120px;
   height: 30px;
   border-radius: 20px;
@@ -253,13 +253,14 @@ padding-top: 14px;
 }
 
 
-.bali{
+.bali {
   margin-left: 20px;
   font-size: 12px;
   padding-top: 20px;
   line-height: 1.3;
 }
-.bali p{
+
+.bali p {
   padding-top: 10px;
   width: 95%;
   color: gray;
@@ -267,50 +268,51 @@ padding-top: 14px;
   font-size: 15px;
 }
 
-.wit{
-  width:90%;
+.wit {
+  width: 90%;
   margin-top: 20px;
   margin-left: 20px;
   height: 1px;
-  background-color:silver;
+  background-color: silver;
 }
 
-.cal{
+.cal {
   padding-top: 20px;
   padding-left: 20px;
   display: flex;
   gap: 5px;
 }
 
-.dur h2{
+.dur h2 {
   font-size: 15px;
   color: #23334f;
   line-height: 1.5;
 }
-.dur p{
+
+.dur p {
   font-size: 15px;
   color: gray;
 }
 
-.calendar{
+.calendar {
   font-size: 25px;
   color: #ec927e;
 }
 
-.call{
+.call {
   display: flex;
   gap: 60px;
 }
 
-.wits{
+.wits {
   width: 90%;
   margin-left: 20px;
   height: 1px;
-  background-color:silver;
+  background-color: silver;
   margin-top: 23px;
 }
 
-.dol{
+.dol {
   text-decoration: line-through;
   font-size: 20px;
   font-weight: bolder;
@@ -319,7 +321,7 @@ padding-top: 14px;
   color: silver;
 }
 
-.fin{
+.fin {
   display: flex;
   align-items: center;
   gap: 120px;
@@ -329,12 +331,12 @@ padding-top: 14px;
 
 }
 
-.finbtn button{
+.finbtn button {
   background-color: #ec927e;
   color: white;
   border: none;
   border-radius: 20px;
-  width:130px;
+  width: 130px;
   height: 40px;
   font-size: 16px;
   transition: all 0.3s ease;
@@ -348,29 +350,29 @@ padding-top: 14px;
   box-shadow: 1px 4px 1px 1px #df5334;
 }
 
-.pra{
+.pra {
   font-size: 25px;
   font-weight: bolder;
   color: #1a2b48;
 }
 
-.aaa{
+.aaa {
 
   text-align: center;
   padding-top: 50px;
- 
+
 }
 
-.bbb p{
-   color: #e05334;
+.bbb p {
+  color: #e05334;
   text-transform: uppercase;
   font-weight: bolder;
   font-size: 14px;
-  font-family: cursive ;
+  font-family: cursive;
   cursor: pointer;
 }
 
-.bbbb p{
+.bbbb p {
   text-align: center;
   margin-top: 30px;
   color: #e05334;
@@ -379,11 +381,11 @@ padding-top: 14px;
   font-family: cursive;
 }
 
-.bbbb{
+.bbbb {
   cursor: pointer;
 }
 
-.dashh{
+.dashh {
   border-bottom: 2px dashed red;
   width: 170px;
   margin: auto;
@@ -391,7 +393,7 @@ padding-top: 14px;
 }
 
 
-.dash{
+.dash {
   border-bottom: 2px dashed red;
   width: 130px;
   margin: auto;
@@ -399,7 +401,7 @@ padding-top: 14px;
 }
 
 
-.image3 img{
+.image3 img {
   filter: brightness(60%);
   width: 270px;
   border-radius: 20px;
@@ -407,65 +409,172 @@ padding-top: 14px;
   transition: all 0.3s ease;
 }
 
-.image3 img:hover{
+.image3 img:hover {
   transform: translateY(-10px);
 }
 
 
-.vbb{
+.vbb {
   position: relative;
   width: fit-content;
-  
+
 }
 
-.tnd{
+.tnd {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   color: white;
 
 }
 
-.tnd h2{
+.tnd h2 {
   font-size: 30px;
   line-height: 1.5;
 }
-.tnd p{
+
+.tnd p {
   text-align: center;
   font-size: 20px;
 }
 
-.alltours{
-display: flex;
-justify-content: center;
-gap: 20px;
-margin-top: 40px;
+.alltours {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
 }
 
-.hav{
+.hav {
   font-size: 25px;
   width: 80%;
   line-height: 1.6;
   color: #4f5e73;
 }
 
-.allsec{
+.allsec {
   display: flex;
   align-items: center;
   margin-top: 100px;
-margin-left: 50px;
+  margin-left: 50px;
 }
 
-.image5 img{
+.image5 img {
   width: 600px;
   margin-right: 70px;
 }
 
-.image5 .image6{
+.image5 .image6 {
   display: none;
 }
 
+.clr {
+  background-image: url("https://solo-elementor.travelerwp.com/wp-content/uploads/2023/07/home_never_be_alone_bg-1.png");
+  height: 600px;
+  background-size: cover;
+  margin-top: 140px;
+  background-position: -190px;
+  padding-top: 110px;
+}
+
+.khe {
+  padding-left: 240px;
+  width: 100%;
+}
+
+.khe img{
+  padding-top: 12px;
+}
+.khe p {
+  color: #5cbda2;
+  font-family: cursive;
+  line-height: 1.5;
+  font-size: 23px;
+}
+
+.khe h1 {
+  color: #1a2b48;
+  line-height: 1.8;
+  font-size: 32px;
+}
+
+
+
+.help p {
+  width: 90%;
+  font-size: 16px;
+  line-height: 1.5;
+  position: relative;
+  right: 10px;
+  color: #6a6e82;
+  font-weight: 530;
+}
+
+.image7 img {
+  width: 540px;
+  position: relative;
+  right: 90px;
+  top: 40px;
+}
+
+.cho h2 {
+  padding-top: 20px;
+  position: relative;
+  right: 10px;
+      color: #1a2b48;
+
+}
+
+.pho img {
+  width: 40px;
+}
+
+.allpho {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  right: 10px;
+  top: 40px;
+  line-height: 6.4;
+}
+
+.spr {
+  width: 100%;
+}
+
+.boo p {
+  width: 60%;
+  margin-top: -20px;
+}
+
+.uss p {
+  padding-top: 30px;
+  color: #df5334;
+  font-weight: bolder;
+  font-family: cursive;
+  cursor: pointer;
+}
+
+.line {
+  border-bottom: 2px dashed red;
+  width: 120px;
+  padding-top: 10px;
+  position: relative;
+  right: 10px;
+}
+
+.paradiv {
+  display: flex;
+}
+
+.allflex {
+  display: flex;
+  flex-direction: column;
+
+
+}
 
 
 
@@ -618,15 +727,18 @@ margin-left: 50px;
     font-size: 25px;
     width: 90%;
     margin: auto;
-    margin-top: 10px;
     line-height: 1.6;
   }
 
-  .reg{
+  .gre img{
+    margin-top: 15px;
+  }
+
+  .reg {
     margin-top: 10px;
   }
 
- 
+
 
   .secImg .para {
     display: none;
@@ -636,12 +748,12 @@ margin-left: 50px;
     display: block;
   }
 
-  .mains{
+  .mains {
     flex-direction: column;
     align-items: center;
   }
 
-  .main{
+  .main {
     width: 86%;
     height: auto;
     padding-bottom: 20px;
@@ -649,71 +761,184 @@ margin-left: 50px;
 
   }
 
-  .call{
+  .call {
     gap: 35px;
   }
 
-  .fin{
+  .fin {
     gap: 90px;
   }
 
-  .bali h2{
+  .bali h2 {
     width: 90%;
     font-size: 19px;
   }
 
-  .finbtn button{
+  .finbtn button {
     width: 120px;
   }
 
-  .bbb{
+  .bbb {
     margin-top: -16px;
   }
 
-  .alltours{
+  .alltours {
     flex-direction: column;
     align-items: center;
     gap: 20px;
-   
+
   }
 
-  .image3 img{
+  .image3 img {
     width: 100%;
   }
 
-  .image4 img{
+  .image4 img {
     width: 300px;
   }
 
-  .allsec{
+  .allsec {
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
   }
 
-  .image5 img{
-  
-  display: none;
+  .image5 img {
+
+    display: none;
   }
 
   .image5 .image6 {
     width: 100%;
-  margin-right: 0;
-  margin-top: 30px;
-  display: block;
+    margin-right: 0;
+    margin-top: 30px;
+    display: block;
 
   }
-  .hav p{
+
+  .hav p {
     font-size: 18px;
     width: 90%;
   }
-  
-  
-  
+
+  .clr {
+    height: auto;
+    margin-top: 60px;
+    background-position: -590px;
+    padding-top: 100px;
+  }
+
+  .khe {
+    padding-left:0;
+    text-align: center;
+  }
+
+  .khe h1 {
+    font-size: 25px;
+  }
+
+  .khe p {
+    font-size: 20px;
+    padding-top: 0;
+
+  }
+
+
+
+  .help p {
+    font-size: 16px;
+    right: 0;
+    padding-top: 20px;
+    line-height: 1.7;
+    width: 80%;
+    margin: auto;
+    padding-left: 0;
+    font-weight: bolder;
+  }
+  .help{
+    text-align: center;
+  }
+
+  .paradiv {
+    flex-direction: column;
+  }
+
+  .image7 img {
+    width: 100%;
+    right: 0;
+    top: 20px;
+  }
+
+  .allflex {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .allpho {
+    flex-direction: column;
+    gap: 20px;
+    width: 20%;
+    gap: 0;
+    right: 0;
+    line-height: normal;
+  }
+
+  .image7 img {
+    width: 90%;
+    margin: auto;
+  }
 
   
+  .cho {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 20px;
+  }
+
+  .cho h2{
+    right: 0;
+  }
+
+  .pho img {
+    width: 100%;
+  }
+
   
- 
+  .uss p {
+    text-align: center;
+
+  }
+
+  .uss{
+    margin-top: 50px;
+    padding-bottom: 60px;
+  }
+
+  .uss p{
+    font-size: 17px;
+  }
+
+  .line {
+    margin: auto;
+    right: 0;
+  }
+
+
+  .boo p{
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
 
 
 
