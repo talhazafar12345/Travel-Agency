@@ -1,9 +1,5 @@
 import Hero15 from "./Hero15"
 import Hero16 from "./Hero16"
-
-
-
-
 function Hero14() {
   return (
     <div className="allhero">
