@@ -618,6 +618,10 @@ body {
   color: #7c7c7c;
 }
 
+.pac p{
+  font-size: 17px;
+}
+
 .allthai {
   display: flex;
   gap: 5px;
