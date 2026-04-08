@@ -12,7 +12,6 @@ function Hero3() {
             <p>Flash Deals</p>
             <h1>We Have Got Some Great Deals</h1>
             <img src="https://solo-elementor.travelerwp.com/wp-content/uploads/2023/07/Vector.svg" alt="" />
-           
         </div>
     </div>
   )
