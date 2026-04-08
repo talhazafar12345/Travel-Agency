@@ -2,12 +2,9 @@
 
 
 import { Link } from "react-router"
-
-
 function Hero18() {
     return (
         <div>
-
             <div className="hero18">
                 <div className="hero18-para1">
                     <p>Multi Tours</p>

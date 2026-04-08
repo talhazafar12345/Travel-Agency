@@ -679,6 +679,7 @@ body {
   background-image: url("https://solo-elementor.travelerwp.com/wp-content/uploads/2023/07/Group-209.png");
   background-size: cover;
   margin-top: 50px;
+  padding-bottom: 60px;
 }
 
 .hero18-image img {
@@ -740,6 +741,68 @@ body {
   width: 110px;
   margin-left: 140px;
   padding-top: 10px;
+}
+
+.hero19{
+  background-color: #ec9121;
+  padding-bottom: 30px;
+}
+
+.hero19-image {
+text-align: center;
+padding-top: 50px;
+}
+
+.hero19-h2{
+text-align: center;
+color: white;
+padding-top: 20px;
+font-size: 15px;
+}
+
+.hero19-inp input{
+  width: 310px;
+  height: 50px;
+  border: none;
+  background-color: #cc791c;
+  border-radius: 26px;
+  padding-left: 15px;
+  font-size: 18px;
+  color: #e9c89a;
+
+}
+
+input::placeholder{
+font-size: 15px;
+color: #e9c89a;
+}
+
+.hero19-flex{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 40px;
+}
+
+.hero19-btn button{
+background-color: #efefef;
+color: #183a32;
+width: 170px;
+height: 45px;
+border: none;
+border-radius: 25px;
+font-size: 15px;
+font-weight: bolder;
+}
+
+
+.hero19-btn button:hover{
+  background-color: #35435a;
+  color:#efefef
+}
+.hero19-btn{
+  text-align: center;
+  margin-top: 30px;
 }
 
 
@@ -1194,6 +1257,27 @@ text-align: center;
 .hero18-link {
 text-align: center;
 }
+
+.hero19-flex{
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero19-h2 h2{
+  font-size: 23px;
+  width: 85%;
+  margin: auto;
+  line-height: 1.3;
+}
+
+.hero19-inp input{
+  margin: auto;
+  width: 296px;
+}
+
+
+
 
 
 
