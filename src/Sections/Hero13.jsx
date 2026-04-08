@@ -6,7 +6,6 @@
 function Hero13() {
   return (
     <div>
-
       <div className="gre">
         <p>Latest News</p>
         <h1>Learn More About Tours</h1>
