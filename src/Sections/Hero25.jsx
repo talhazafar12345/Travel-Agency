@@ -30,7 +30,7 @@ function Hero25() {
             <img src="https://solo-elementor.travelerwp.com/wp-content/uploads/2020/05/Rectangle-109-1.png" alt="" />
                 <div className="hero24-para1">
                     <h2>Thuy</h2>
-                    <p>Vietnm Operations</p>
+                    <p>Vietnam Operations</p>
                     <em className="hero24-em">From <span className="hero24-span">Vietnam</span></em>
                 </div>
             </div>

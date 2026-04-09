@@ -4,6 +4,8 @@ import Hero22 from "../Sections/Hero22"
 import { useEffect } from "react"
 import Hero23 from "../Sections/Hero23"
 import Hero24 from "../Sections/Hero24"
+import Hero19 from "../Sections/Hero19"
+import Hero20 from "../Sections/Hero20"
 
 
 function About() {
@@ -17,6 +19,10 @@ window.scrollTo(0,0)
     <Hero22 />
     <Hero23 />
     <Hero24 />
+    <div className="about-hero19">
+    <Hero19 />
+    </div>
+    <Hero20 />
       
     </div>
   )

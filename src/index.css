@@ -926,6 +926,7 @@ input::placeholder {
 
   background-image: url("https://solo-elementor.travelerwp.com/wp-content/uploads/2020/04/Group-230-1.png");
   background-size: cover;
+  background-position: center;
   height: 300px;
 }
 
@@ -1052,6 +1053,10 @@ font-size: 14px;
 
 .hero25{
   margin-top: -31px;
+}
+
+.about-hero19{
+  margin-top: 60px;
 }
 
 
@@ -1589,7 +1594,7 @@ font-size: 14px;
   }
 
   .hero21-para1 h1 {
-    font-size: 25px;
+    font-size: 30px;
     padding-left: 0;
   }
 
