@@ -27,8 +27,8 @@ function Hero1() {
         <div className="navLinks">
           <Link to={"/"} className="link">Home</Link>
           <Link to={"/about-us"} className="link">About</Link>
-          <Link className="link">Services</Link>
-          <Link className="link">Membership</Link>
+          <Link className="link">FAQS</Link>
+          <Link className="link">Contact</Link>
         </div>
         <div className="navButton">
           <Link className="login" >Login</Link>
@@ -54,7 +54,7 @@ function Hero1() {
           About
         </Link>
         <Link className="side-link">
-          Services
+          FAQS
         </Link>
         <Link className="side-link">
           Contact
