@@ -8,9 +8,8 @@
 
 body {
   overflow-x: hidden !important;
-
-
 }
+
 
 .navBar {
   display: flex;
@@ -618,7 +617,7 @@ body {
   color: #7c7c7c;
 }
 
-.pac p{
+.pac p {
   font-size: 17px;
 }
 
@@ -747,24 +746,24 @@ body {
   padding-top: 10px;
 }
 
-.hero19{
+.hero19 {
   background-color: #ec9121;
   padding-bottom: 60px;
 }
 
 .hero19-image {
-text-align: center;
-padding-top: 50px;
+  text-align: center;
+  padding-top: 50px;
 }
 
-.hero19-h2{
-text-align: center;
-color: white;
-padding-top: 20px;
-font-size: 15px;
+.hero19-h2 {
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  font-size: 15px;
 }
 
-.hero19-inp input{
+.hero19-inp input {
   width: 310px;
   height: 50px;
   border: none;
@@ -776,35 +775,36 @@ font-size: 15px;
 
 }
 
-input::placeholder{
-font-size: 15px;
-color: #e9c89a;
+input::placeholder {
+  font-size: 15px;
+  color: #e9c89a;
 }
 
-.hero19-flex{
+.hero19-flex {
   display: flex;
   justify-content: center;
   margin-top: 30px;
   gap: 40px;
 }
 
-.hero19-btn button{
-background-color: #efefef;
-color: #183a32;
-width: 170px;
-height: 45px;
-border: none;
-border-radius: 25px;
-font-size: 15px;
-font-weight: bolder;
+.hero19-btn button {
+  background-color: #efefef;
+  color: #183a32;
+  width: 170px;
+  height: 45px;
+  border: none;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: bolder;
 }
 
 
-.hero19-btn button:hover{
+.hero19-btn button:hover {
   background-color: #35435a;
-  color:#efefef
+  color: #efefef
 }
-.hero19-btn{
+
+.hero19-btn {
   text-align: center;
   margin-top: 30px;
 }
@@ -875,10 +875,21 @@ font-weight: bolder;
   transform: scale(1.1);
 }
 
-.fb { background: #3b5998; }
-.ig { background: #f39c12; }
-.pin { background: red; }
-.tw { background: #1da1f2; }
+.fb {
+  background: #3b5998;
+}
+
+.ig {
+  background: #f39c12;
+}
+
+.pin {
+  background: red;
+}
+
+.tw {
+  background: #1da1f2;
+}
 
 /* Headings */
 .footer-col h3 {
@@ -890,10 +901,10 @@ font-weight: bolder;
   display: block;
   margin: 22px 0;
   text-decoration: none;
-  color:#f6ffff;
+  color: #f6ffff;
 }
 
-.footer-col a:hover{
+.footer-col a:hover {
   color: #cc791c;
 }
 
@@ -910,6 +921,83 @@ font-weight: bolder;
 .footer-bottom span {
   margin-top: 10px;
 }
+
+.hero21-image {
+
+  background-image: url("https://solo-elementor.travelerwp.com/wp-content/uploads/2020/04/Group-230-1.png");
+  background-size: cover;
+  height: 300px;
+}
+
+
+.hero21-para1 {
+  padding-left: 70px;
+  padding-top: 60px;
+}
+
+.hero21-para1 p {
+  font-family: cursive;
+  color: #5cbda2;
+  font-size: 23px;
+  margin-top: 10px;
+}
+
+.hero21-para1 img {
+  padding-top: 25px;
+}
+
+.hero21-para1 h1 {
+  padding-top: 10px;
+  color: #183a32;
+}
+
+.hero22-para1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.hero22-para1 p {
+  font-size: 20px;
+  color: #183a32;
+  font-weight: bolder;
+  width: 70%;
+  margin: auto;
+  line-height: 1.7;
+}
+
+.hero22-para2 {
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+.hero22-para2 img {
+  margin-top: 20px;
+}
+
+.hero22-para2 p {
+  font-size: 16px;
+  width: 90%;
+  margin-top: 20px;
+  line-height: 1.5;
+  color: #969dad;
+}
+
+
+.hero22-Image img {
+  width: 450px;
+  margin-right: 200px;
+}
+
+.hero22-flex {
+
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+
+
+
 
 
 
@@ -1007,6 +1095,7 @@ font-weight: bolder;
     margin: 12px 0;
     font-size: 17px;
     font-weight: bold;
+    width: 14%;
 
   }
 
@@ -1285,7 +1374,7 @@ font-weight: bolder;
     padding-bottom: 25px;
   }
 
-  .pac p{
+  .pac p {
     font-size: 16px;
   }
 
@@ -1303,90 +1392,91 @@ font-weight: bolder;
   }
 
 
-  .hero18-flex{
+  .hero18-flex {
     flex-direction: column;
     align-items: center;
   }
 
   .hero18-image img {
-  padding-top: 30px;
-  padding-left: 0;
-  width: 90%;
-}
+    padding-top: 30px;
+    padding-left: 0;
+    width: 90%;
+  }
 
   .hero18-image2 img {
-  width: 90%;
-  margin: auto;
-  padding-right: 0;
-  padding-top: 40px;
-}
+    width: 90%;
+    margin: auto;
+    padding-right: 0;
+    padding-top: 40px;
+  }
 
-.hero18-image2 {
-  text-align: center;
-}
+  .hero18-image2 {
+    text-align: center;
+  }
 
-.hero18-para1{
-  padding-left: 0;
-  text-align: center;
-}
+  .hero18-para1 {
+    padding-left: 0;
+    text-align: center;
+  }
 
-.hero18-para1 h1{
-  font-size: 25px;
+  .hero18-para1 h1 {
+    font-size: 25px;
 
-}
+  }
 
-.hero18-para1 p{
-  font-size: 22px;
-  padding-top: 75px;
-  line-height: 1.6;
-}
-
-
-.hero18-para2 p{
-  padding-left: 0;
-  width: 85%;
-  margin: auto;
-  padding-top: 40px;
-  font-size: 16px;
-}
-
-.hero18-para2{
-text-align: center;
-}
-
-.hero18-dash{
-  margin-left: 0;
-  width: 30%;
-  margin: auto;
-}
-
-.hero18-link .sub{
-  padding-left: 0;
-}
-.hero18-link {
-text-align: center;
-}
-
-.hero19-flex{
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-}
-
-.hero19-h2 h2{
-  font-size: 23px;
-  width: 85%;
-  margin: auto;
-  line-height: 1.3;
-}
-
-.hero19-inp input{
-  margin: auto;
-  width: 296px;
-}
+  .hero18-para1 p {
+    font-size: 22px;
+    padding-top: 75px;
+    line-height: 1.6;
+  }
 
 
-.footer-container {
+  .hero18-para2 p {
+    padding-left: 0;
+    width: 85%;
+    margin: auto;
+    padding-top: 40px;
+    font-size: 16px;
+  }
+
+  .hero18-para2 {
+    text-align: center;
+  }
+
+  .hero18-dash {
+    margin-left: 0;
+    width: 30%;
+    margin: auto;
+  }
+
+  .hero18-link .sub {
+    padding-left: 0;
+  }
+
+  .hero18-link {
+    text-align: center;
+  }
+
+  .hero19-flex {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .hero19-h2 h2 {
+    font-size: 23px;
+    width: 85%;
+    margin: auto;
+    line-height: 1.3;
+  }
+
+  .hero19-inp input {
+    margin: auto;
+    width: 296px;
+  }
+
+
+  .footer-container {
     flex-direction: column;
     gap: 30px;
   }
@@ -1426,9 +1516,63 @@ text-align: center;
     align-items: center;
   }
 
-  .footer-bottom p{
+  .footer-bottom p {
     line-height: 1.8;
   }
+
+  .hero21-para1 {
+    padding-left: 0;
+    text-align: center;
+    padding-top: 70px;
+  }
+
+  .hero21-para1 h1 {
+    font-size: 25px;
+    padding-left: 0;
+  }
+
+  .hero22-para1 p {
+    font-size: 16px;
+    width: 90%;
+  }
+
+
+  .hero22-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero22-para2 {
+    margin-left: 0;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .hero22-para2 h1 {
+    font-size: 25px;
+  }
+
+  .hero22-para2 p {
+    font-size: 16px;
+    width: 80%;
+    margin: auto;
+    margin-top: 23px;
+  }
+
+  .hero22-Image{
+    text-align: center;
+  }
+
+  .hero22-Image img {
+    width: 90%;
+    margin: auto;
+    margin-right: 0;
+    margin-top: 30px;
+  }
+
+
+
+
 
 
 

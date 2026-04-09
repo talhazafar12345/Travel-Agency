@@ -1,17 +1,22 @@
 
-import { useState } from "react";
+
+
+
+import { useState, useEffect } from "react";
 import { Link } from "react-router";
 function Hero1() {
   const [open, setOpen] = useState(false);
   const toggleSidebar = () => {
-    if (!open) {
-      document.body.classList.add("no-scroll");
-    } else {
-      document.body.classList.remove("no-scroll");
+    setOpen(!open)
+  }
+  useEffect(() => {
+    if (open) {
+      document.body.classList.add("no-scroll")
     }
-
-    setOpen(!open);
-  };
+    else {
+      document.body.classList.remove("no-scroll")
+    }
+  }, [open])
   return (
     <div className="hero1-container">
       <div className="navBar">
@@ -23,7 +28,7 @@ function Hero1() {
         </div>
         <div className="navLinks">
           <Link to={"/"} className="link">Home</Link>
-          <Link className="link">About</Link>
+          <Link to={"/about-us"} className="link">About</Link>
           <Link className="link">Services</Link>
           <Link className="link">Membership</Link>
         </div>
@@ -47,14 +52,14 @@ function Hero1() {
         <Link to={"/"} className="side-link">
           Home
         </Link>
-        <Link className="side-link">
+        <Link to={"/about-us"} className="side-link">
           About
         </Link>
-        <Link  className="side-link">
+        <Link className="side-link">
           Services
         </Link>
         <Link className="side-link">
-          Fitness Packages
+          Contact
         </Link>
         <div className="side-buttons">
           <Link className="login">Login</Link>
