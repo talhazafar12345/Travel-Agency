@@ -28,7 +28,7 @@ function Hero1() {
           <Link to={"/"} className="link">Home</Link>
           <Link to={"/about-us"} className="link">About</Link>
           <Link to={"/FAQS-Page"} className="link">FAQS</Link>
-          <Link className="link">Contact</Link>
+          <Link to={"/contact-page"} className="link">Contact</Link>
         </div>
         <div className="navButton">
           <Link className="login" >Login</Link>
@@ -56,7 +56,7 @@ function Hero1() {
         <Link to={"/FAQS-Page"} className="side-link">
           FAQS
         </Link>
-        <Link className="side-link">
+        <Link to={"/contact-page"} className="side-link">
           Contact
         </Link>
         <div className="side-buttons">

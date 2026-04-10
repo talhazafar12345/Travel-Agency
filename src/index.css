@@ -1094,7 +1094,7 @@ margin: auto;
   gap: 60px;
   color: #0a2342;
   margin-top: 90px;
-  margin-left: 130px;
+  margin-left: 140px;
 }
 
 .faq-left p {
@@ -1165,6 +1165,159 @@ justify-content: center;
 .Faqs-hero27{
 margin-top: 100px;
 }
+
+.hero28-Image{
+background-image: url("https://solo-elementor.travelerwp.com/wp-content/uploads/2020/04/Group-232.png");
+background-size: cover;
+height: 300px;
+}
+
+.hero28-para1{
+  padding-top: 70px;
+  padding-left: 70px;
+}
+
+.hero28-para1 p {
+  font-family: cursive;
+  color: #5cbda2;
+  font-size: 23px;
+  margin-top: 10px;
+}
+
+.hero28-para1 img {
+  padding-top: 25px;
+}
+
+.hero28-para1 h1 {
+  padding-top: 10px;
+  color: #183a32;
+}
+
+.hero29-para1{
+  margin-top: 50px;
+  margin-left: 70px;
+}
+
+.hero29-para1 p{
+font-size: 20px;
+width: 70%;
+line-height: 1.4;
+color: #183a32;
+font-weight: bold;
+}
+
+.hero29-para2{
+width: 70%;
+border: 1px dashed #e2e7e6;
+margin-top: 70px;
+}
+
+.hero29-para3 .hero29-subpara{
+color: #999999;
+font-weight: bold;
+margin-top: 50px;
+}
+
+.hero29-span{
+  color: #ec927e;
+  font-weight: bold;
+}
+
+.hero29-para4{
+  margin-top: 20px;
+}
+
+.hero30-subpara{
+color:#999999 ;
+}
+
+.hero29-inp input{
+width: 90%;
+height: 40px;
+border-radius: 20px;
+border: none;
+margin: 10px;
+padding-left: 15px;
+}
+
+.hero29-inp{
+  text-align: center;
+}
+
+.hero29-inp input::placeholder{
+
+font-size: 16px;
+color: gray;
+font-weight: 0;
+}
+
+.hero29-textarea{
+  text-align: center;
+
+}
+
+.hero29-textarea textarea::placeholder{
+  font-size: 17px;
+  padding-left: 12px;
+  padding-top: 10px;
+  
+}
+
+.hero29-textarea textarea{
+width: 92%;
+height: 120px;
+border-radius: 20px;
+margin: 10px;
+  font-size: 16px;
+  color: gray;
+  padding: 5px;
+
+
+
+}
+
+.hero29-btn{
+  text-align: center;
+}
+
+
+.hero29-btn button{
+  background-color: #ec927e;
+  color: white;
+  width: 90%;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+
+.hero29-color{
+background-color: #5cbda2;
+width: 1200px;
+padding-top: 20px;
+border-radius: 30px;
+height: 400px;
+position: relative;
+right: 80px;
+padding-bottom: 50px;
+}
+
+.hero29-flex{
+
+display: flex;
+margin-top: 100px;
+}
+
+.hero29-contact h2{
+  margin: 20px;
+  color: white;
+  font-size: 26px;
+  padding-left: 20px;
+}
+
 
 
 
