@@ -13,14 +13,12 @@ function Hero20() {
         {/* Left */}
         <div className="footer-col">
           <h2 className="logo">Easy Travel</h2>
-
           <p className="label">Currencies</p>
           <select className="currency">
             <option>EUR</option>
             <option>USD</option>
             <option>PKR</option>
           </select>
-
           <div className="socials">
              <Link to="#"><span className="circle fb"><i class="fa-brands fa-facebook-f"></i></span></Link>
             <Link to="#"><span className="circle ig"><i class="fa-brands fa-instagram"></i></span></Link>

@@ -928,6 +928,7 @@ input::placeholder {
   background-size: cover;
   background-position: center;
   height: 300px;
+  padding-bottom: 45px;
 }
 
 
@@ -969,6 +970,11 @@ input::placeholder {
 .hero22-para2 {
   margin-top: 80px;
   margin-left: 50px;
+}
+
+.hero22-para2 h1{
+  font-size: 28px !important;
+  color: #1a2b48 !important;
 }
 
 .hero22-para2 img {
@@ -1057,6 +1063,107 @@ font-size: 14px;
 
 .about-hero19{
   margin-top: 60px;
+}
+
+.hero26-Image{
+  background-image: url("https://solo-elementor.travelerwp.com/wp-content/uploads/2020/04/faq.png");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  padding-bottom: 45px;
+}
+
+.hero26-para1{
+margin-top: 100px;
+text-align: center;
+}
+
+.hero26-para1 p{
+font-size: 20px;
+color: #183a32;
+font-weight: bolder;
+width: 50%;
+line-height: 1.6;
+margin: auto;
+}
+
+
+
+.faq-container {
+  display: flex;
+  gap: 60px;
+  color: #0a2342;
+  margin-top: 90px;
+  margin-left: 130px;
+}
+
+.faq-left p {
+  width: 90%;
+  line-height: 1.5;
+  margin-top: 20px;
+  color: #183a32;
+  
+  
+}
+
+.faq-left h1 {
+  font-size: 30px;
+  width: 80%;
+  line-height: 1.2;
+  margin-top: 18px;
+}
+
+.faq-right {
+
+flex: 1;
+justify-content: center;
+}
+
+.accordion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 18px 0;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  right: 70px;
+}
+
+.accordion:hover {
+  color: #5779a0;
+}
+
+.accordion-content {
+  font-size: 16px;
+  color:#899c98;
+  line-height: 1.6;
+  margin-top: 10px;
+  position: relative;
+  right: 70px;
+}
+
+.accordion:focus {
+  outline: none;
+}
+
+.symbol {
+  font-size: 22px;
+  transition: transform 0.3s ease;
+}
+
+.accordion.active .symbol {
+  transform: rotate(180deg);
+}
+
+.question {
+  line-height: 1.7;
+}
+
+.Faqs-hero27{
+margin-top: 100px;
 }
 
 
@@ -1626,6 +1733,10 @@ font-size: 14px;
     margin-top: 23px;
   }
 
+  .hero22-para2 h1{
+    font-size: 24px !important;
+  }
+
   .hero22-Image{
     text-align: center;
   }
@@ -1642,12 +1753,50 @@ font-size: 14px;
     margin-top: 50px;
   }
 
+    .hero23-para1 h1{
+    font-size: 24px !important;
+  }
+
 
   .fff{
     flex-direction: column;
     align-items: center;
     gap: 25px;
     margin-top: 50px;
+  }
+
+
+  .hero26-para1{
+    margin-top: 50px;
+  }
+
+  .hero26-para1 p{
+  font-size: 18px;
+  width: 90%;
+  line-height: 1.5;
+  margin: auto;
+  }
+
+  .faq-container{
+  margin-left: 100px;
+  font-size: 20px;
+  margin-top: 50px;
+  }
+
+  .question{
+    font-size: 17px;
+  }
+
+  .symbol{
+  position: relative;
+  left: 20px;
+  }
+  .accordion-content p{
+    font-size: 15px;
+  }
+
+  .Faqs-hero27{
+    margin-top: 70px;
   }
 
 
