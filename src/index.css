@@ -1169,6 +1169,7 @@ margin-top: 100px;
 .hero28-Image{
 background-image: url("https://solo-elementor.travelerwp.com/wp-content/uploads/2020/04/Group-232.png");
 background-size: cover;
+background-position: center;
 height: 300px;
 padding-bottom: 45px;
 }
@@ -1191,6 +1192,7 @@ padding-bottom: 45px;
 .hero28-para1 h1 {
   padding-top: 10px;
   color: #183a32;
+  
 }
 
 .hero29-para1{
@@ -1238,6 +1240,7 @@ border-radius: 20px;
 border: none;
 margin: 10px;
 padding-left: 15px;
+font-size: 16px;
 }
 
 .hero29-inp{
@@ -1306,7 +1309,7 @@ border-radius: 30px;
 height: auto;
 position: relative;
 right: 80px;
-padding-bottom: 50px;
+padding-bottom: 40px;
 }
 
 .hero29-flex{
@@ -1323,7 +1326,6 @@ margin-top: 100px;
 }
 
 .hero29-errors{
-
 color: red;
 padding-left: 30px;
 }
@@ -1332,7 +1334,7 @@ padding-left: 30px;
 
 color: red;
 text-align: center;
-padding-top: 30px;
+padding-top: 10px;
 }
 
 
@@ -1868,12 +1870,13 @@ padding-top: 30px;
   .hero21-para1 {
     padding-left: 0;
     text-align: center;
-    padding-top: 70px;
+    padding-top: 110px;
   }
 
   .hero21-para1 h1 {
-    font-size: 30px;
+    font-size: 25px;
     padding-left: 0;
+    line-height: 1.4;
   }
 
   .hero22-para1 p {
@@ -1970,6 +1973,55 @@ padding-top: 30px;
     margin-top: 70px;
   }
 
+  .hero28-para1{
+    padding-left: 0;
+    text-align: center;
+    padding-top: 110px;
+  }
+
+  .hero28-para1 h1{
+    font-size: 25px;
+  }
+
+  .hero29-flex{
+  flex-direction: column;
+  align-items: center;
+  }
+
+  .hero29-color{
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    right: 0
+  }
+
+   .hero29-para1{
+    margin-left: 0;
+    text-align: center;
+    margin-top: 0;
+  }
+
+
+  .hero29-para1 p{
+    font-size: 18px;
+    width: 90%;
+    margin: auto;
+  }
+
+  .hero29-para2{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .hero29-inp input{
+    height: 50px;
+    width: 85%;
+  }
+ 
+  .hero29-textarea textarea{
+  width: 88%;
+  }
 
 
 
