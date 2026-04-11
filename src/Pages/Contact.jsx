@@ -3,7 +3,6 @@ import Hero19 from "../Sections/Hero19"
 import Hero28 from "../Sections/Hero28"
 import Hero29 from "../Sections/Hero29"
 import { useEffect } from "react"
-import Hero30 from "../Sections/Hero30"
 
 
 
@@ -20,7 +19,6 @@ window.scrollTo(0,0)
     <div className="Faqs-hero27">
     <Hero19 />
     </div>
-    <Hero30 />
       
     </div>
   )
