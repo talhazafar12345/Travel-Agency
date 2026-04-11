@@ -2,7 +2,6 @@
 
 import { useState } from "react"
 function Hero29() {
-
     const [formData, setFormData] = useState({
         name: "",
         email: "",
@@ -16,7 +15,6 @@ function Hero29() {
         setErrors({ ...errors, [name]: "" })
         setText("")
     }
-
     const Validate = () => {
         const newErrors = {}
         if (!formData.name) newErrors.name = "Please enter your name"
