@@ -3352,14 +3352,22 @@ input::placeholder {
   }
 
   .hero21-para1 h1 {
-    font-size: 25px;
+    font-size: 32px;
     padding-left: 0;
     line-height: 1.4;
   }
+  
+  .hero21-para1 p{
+  font-size: 27px;
+  }
 
   .hero22-para1 p {
-    font-size: 16px;
+    font-size: 22px;
     width: 90%;
+  }
+
+  .hero21-para1 img{
+    width: 120px;
   }
 
 
@@ -3374,19 +3382,16 @@ input::placeholder {
     margin-top: 10px;
   }
 
-  .hero22-para2 h1 {
-    font-size: 25px;
-  }
 
   .hero22-para2 p {
-    font-size: 16px;
+    font-size: 22px;
     width: 80%;
     margin: auto;
     margin-top: 23px;
   }
 
   .hero22-para2 h1 {
-    font-size: 24px !important;
+    font-size: 35px !important;
   }
 
   .hero22-Image {
@@ -3406,14 +3411,35 @@ input::placeholder {
   }
 
   .hero23-para1 h1 {
-    font-size: 24px !important;
+    font-size: 35px !important;
+  }
+
+  .hero24-Image img{
+  width: 500px;
+  }
+
+  .hero24-para1 h2{
+  font-size: 27px;
+  padding-top: 10px;
+  }
+
+  .hero24-para1 p{
+
+  font-size: 25px;
+  }
+
+  .hero24-em{
+  font-size: 23px;
+  }
+  .hero24-span{
+  font-size: 23px;
   }
 
 
   .fff {
     flex-direction: column;
     align-items: center;
-    gap: 25px;
+    gap: 35px;
     margin-top: 50px;
   }
 
@@ -3423,7 +3449,7 @@ input::placeholder {
   }
 
   .hero26-para1 p {
-    font-size: 18px;
+    font-size: 23px;
     width: 90%;
     line-height: 1.5;
     margin: auto;
@@ -3436,16 +3462,17 @@ input::placeholder {
   }
 
   .question {
-    font-size: 17px;
+    font-size: 22px;
   }
 
   .symbol {
     position: relative;
     left: 20px;
+    font-size: 28px;
   }
 
   .accordion-content p {
-    font-size: 15px;
+    font-size: 21px;
   }
 
   .Faqs-hero27 {
@@ -3459,7 +3486,12 @@ input::placeholder {
   }
 
   .hero28-para1 h1 {
-    font-size: 25px;
+    font-size: 32px;
+  }
+
+  .hero28-para1 p{
+  
+  font-size: 27px;
   }
 
   .hero29-flex {
@@ -3474,6 +3506,12 @@ input::placeholder {
     right: 0
   }
 
+  .hero29-contact h2{
+    font-size: 30px;
+    padding-left: 30px;
+  }
+
+
   .hero29-para1 {
     margin-left: 0;
     text-align: center;
@@ -3481,7 +3519,7 @@ input::placeholder {
   }
 
   .hero29-para1 p {
-    font-size: 18px;
+    font-size: 23px;
     width: 90%;
     margin: auto;
   }
@@ -3495,11 +3533,27 @@ input::placeholder {
   .hero29-inp input {
     height: 50px;
     width: 85%;
+    font-size: 21px;
+  }
+
+  .hero29-inp input::placeholder{
+  font-size: 21px;
   }
 
   .hero29-textarea textarea {
-    width: 88%;
+    width: 85%;
+    font-size: 21px;
   }
+  .hero29-textarea textarea::placeholder{
+  font-size: 21px;
+  }
+
+  .hero29-btn button{
+  
+  font-size: 22px;
+  height: 60px;
+  }
+
 }
 
 @media screen and (min-width: 821px) and (max-width: 920px) {}
