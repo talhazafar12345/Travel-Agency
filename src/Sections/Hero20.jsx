@@ -11,6 +11,7 @@ function Hero20() {
       <div className="footer-container">
 
         {/* Left */}
+        <div className="easy">
         <div className="footer-col">
           <h2 className="logo">Easy Travel</h2>
           <p className="label">Currencies</p>
@@ -25,10 +26,11 @@ function Hero20() {
             <Link to="#"><span className="circle pin"><i class="fa-brands fa-pinterest-p"></i></span></Link>
             <Link to="#"><span className="circle tw"><i class="fa-brands fa-twitter"></i></span></Link>
           </div>
+          </div>
         </div>
 
         {/* Tour */}
-        <div className="footer-col">
+        <div className="footer-col footer-tour">
           <h3>TOUR</h3>
           <Link >Thailand</Link>
           <Link>Vietnam</Link>

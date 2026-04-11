@@ -12,7 +12,7 @@ function Hero6() {
                     <h2>Thailand</h2>
                 </div>
                 <div className="bali">
-                    <h2>Half Day Chaing Mai City and Temples Tour Including Doi Suthep</h2>
+                    <h2>Half Day Chiang Mai City and Temples Tour</h2>
                     <p>  Explore the cultural highlights of Chiang Mai on this half-day tour.
                         Visit the iconic Doi Suthep Temple with stunning city views.
                         Discover ancient temples, bustling markets, and traditional architecture.
