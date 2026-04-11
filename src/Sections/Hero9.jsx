@@ -30,7 +30,7 @@ function Hero9() {
     </div>
 
     <div className="vbb">
-    <div className="image3 image4">
+    <div className="image3">
         <img src="https://solo-elementor.travelerwp.com/wp-content/uploads/2017/06/ammie-ngo-vcu-OZBxxRk-unsplash-scaled.jpg" alt="" />
     </div>
     <div className="tnd">

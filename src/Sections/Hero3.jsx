@@ -6,8 +6,6 @@
 function Hero3() {
   return (
     <div>
-
-
         <div className="gre">
             <p>Flash Deals</p>
             <h1>We Have Got Some Great Deals</h1>
