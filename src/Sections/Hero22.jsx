@@ -16,7 +16,7 @@ function Hero22() {
       <p>Each tour is handcrafted by our team after months (sometimes years!) of in-country research. We carefully select each activity, transportation, accommodation, and included meal option to ensure a consistent level of quality on each tour.</p>
     </div>
     <div className="hero22-Image">
-      <img src="https://solo-elementor.travelerwp.com/wp-content/uploads/2020/04/Rectangle-107.png" alt="" />
+      <img src="https://i.ibb.co/Rkz6yHMg/m.jpg" alt="" />
     </div>
     </div>
     </div>

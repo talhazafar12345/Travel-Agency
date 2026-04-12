@@ -24,7 +24,7 @@ function Hero18() {
                         </div>                  
                     </div>
                     <div className="hero18-image2">
-                        <img src="https://solo-elementor.travelerwp.com/wp-content/uploads/2023/07/Group-208-1.png" alt="" />
+                        <img src="https://i.ibb.co/kgn1pjDg/m.jpg" alt="" />
                     </div>
                 </div>
             </div>

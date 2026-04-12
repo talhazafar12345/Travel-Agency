@@ -11,7 +11,7 @@ function Hero4() {
 
                 <div className="main">
                     <div className="pic">
-                        <img src="https://solo-elementor.travelerwp.com/wp-content/uploads/2015/01/3-3-450x300.png" alt="" />
+                        <img src="https://i.ibb.co/fdrHTwXZ/m.jpg" alt="" />
                     </div>
                     <div className="ind">
                         <h2>Indonesia</h2>

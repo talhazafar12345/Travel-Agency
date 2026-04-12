@@ -4,7 +4,7 @@ function Hero5() {
     
             <div className="main">
                 <div className="pic">
-                    <img src="https://solo-elementor.travelerwp.com/wp-content/uploads/2015/01/1-2-450x300.png" alt="" />
+                    <img src="https://i.ibb.co/27NvdWSb/m.jpg" alt="" />
                 </div>
                 <div className="vetm">
                     <h2>Vietnam</h2>

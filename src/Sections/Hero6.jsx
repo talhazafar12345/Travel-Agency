@@ -6,7 +6,7 @@ function Hero6() {
             <div className="main">
 
                 <div className="pic">
-                    <img src="https://solo-elementor.travelerwp.com/wp-content/uploads/2015/01/12-450x300.png" alt="" />
+                    <img src="https://i.ibb.co/xZnbHVY/m.jpg" alt="" />
                 </div>
                 <div className="thai">
                     <h2>Thailand</h2>

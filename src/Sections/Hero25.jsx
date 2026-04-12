@@ -8,7 +8,7 @@ function Hero25() {
     <div className="hero25">
       <div className="fff">
             <div className="hero24-Image">
-            <img src="https://solo-elementor.travelerwp.com/wp-content/uploads/2020/04/Rectangle-109_2.png" alt="" />
+            <img src="https://i.ibb.co/gLfY4Kn3/m.jpg" alt="" />
 
                 <div className="hero24-para1">
                     <h2>Fiona</h2>
@@ -18,7 +18,7 @@ function Hero25() {
             </div>
 
             <div className="hero24-Image">
-            <img src="https://solo-elementor.travelerwp.com/wp-content/uploads/2020/05/Rectangle-109@3x-3.png" alt="" />
+            <img src="https://i.ibb.co/nMW9ZJN7/m.jpg" alt="" />
 
                 <div className="hero24-para1">
                     <h2>Oratai</h2>
@@ -27,7 +27,7 @@ function Hero25() {
                 </div>
             </div>
             <div className="hero24-Image">
-            <img src="https://solo-elementor.travelerwp.com/wp-content/uploads/2020/05/Rectangle-109-1.png" alt="" />
+            <img src="https://i.ibb.co/67XnZq2N/m.jpg" alt="" />
                 <div className="hero24-para1">
                     <h2>Thuy</h2>
                     <p>Vietnam Operations</p>
@@ -35,7 +35,7 @@ function Hero25() {
                 </div>
             </div>
             <div className="hero24-Image">
-            <img src="https://solo-elementor.travelerwp.com/wp-content/uploads/2020/04/Rectangle-109_8.png" alt="" />
+            <img src="https://i.ibb.co/3m0XRyHt/m.jpg" alt="" />
                 <div className="hero24-para1">
                     <h2>Ima</h2>
                     <p>Bali Operations</p>

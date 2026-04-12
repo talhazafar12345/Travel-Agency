@@ -5,7 +5,7 @@ function Hero14() {
     <div className="allhero">
     <div className="motiImg">
     <div className="image8">
-        <img src="https://solo-elementor.travelerwp.com/wp-content/uploads/2020/05/1-450x300.png" alt="" />
+        <img src="https://i.ibb.co/Y7hjCNKK/m.jpg" alt="" />
     </div>
     <div className="allthai">
     <div className="ddd">

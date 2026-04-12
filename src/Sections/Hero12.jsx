@@ -16,7 +16,7 @@ function Hero12() {
                         <img src="https://solo-elementor.travelerwp.com/wp-content/uploads/2023/07/Vector.svg" alt="" />
 
                         <div className="image7">
-                            <img src="https://solo-elementor.travelerwp.com/wp-content/uploads/2023/07/Group-25-2.png" alt="" />
+                            <img src="https://i.ibb.co/svvtD6bB/m.jpg" alt="" />
                         </div>
 
                     </div>
