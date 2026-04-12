@@ -1364,7 +1364,7 @@ right: 40px;
 
   .hamburger {
     display: block;
-    font-size: 30px;
+    font-size: 24px;
     cursor: pointer;
     color: black;
     margin-right: 20px;
@@ -1413,7 +1413,7 @@ right: 40px;
   }
 
   .close-btn {
-    font-size: 28px;
+    font-size: 23px;
     align-self: flex-end;
     cursor: pointer;
     color: black;

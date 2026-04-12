@@ -1,6 +1,7 @@
 
 
 import { useState } from "react"
+import axios from "axios"
 function Hero29() {
     const [formData, setFormData] = useState({
         name: "",
@@ -19,12 +20,12 @@ function Hero29() {
         const newErrors = {}
         if (!formData.name) newErrors.name = "Please enter your name"
         if (!formData.email) newErrors.email = "Please enter your email"
-        else if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/ .test(!formData))
+        else if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/ .test(formData))
             newErrors.email = "Please enter valid email"
         if (!formData.message) newErrors.message = "Please enter your message"
         return newErrors
     }
-    const getMessage = (e) => {
+    const getMessage = async (e) => {
         e.preventDefault()
         const validation = Validate()
         if (Object.keys(validation).length > 0) {
@@ -32,6 +33,9 @@ function Hero29() {
             setText("One or more field is empty")
             return
         }
+       const response = await axios.post("http://localhost:5000/receive-message",{formData})
+       console.log(response)
+
         alert("Message submit successfully")
         setFormData({
             name:"",
