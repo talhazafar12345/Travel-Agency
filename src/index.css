@@ -2065,14 +2065,14 @@ right: 40px;
 
 
   .navImages img {
-    width: 60%;
+    width: 220px;
     margin-top: -80px;
     position: relative;
     right: 40px;
   }
 
   .navImage img {
-    width: 75%;
+    width: 220px;
     padding-top: 10px;
     position: relative;
     right: 48px;
@@ -2169,7 +2169,22 @@ right: 40px;
     margin-top: 10px;
   }
 
+.hero24-Image img{
 
+width: 400px;
+}
+
+.hero24-para1 h2{
+font-size: 24px;
+}
+
+.hero24-para1 p{
+font-size: 16px;
+}
+
+.hero24-em{
+font-size: 16px;
+}
 
   .secImg .para {
     display: none;
@@ -2221,12 +2236,20 @@ right: 40px;
   }
 
   .image3 img {
-    width: 100%;
+    width: 400px;
+    height: 500px;
+    
   }
 
-  .image4 img {
-    width: 300px;
+  .footer-tour{
+    left: 0;
   }
+
+  .easy{
+    right: 0;
+  }
+
+
 
   .allsec {
     flex-direction: column;
@@ -2423,7 +2446,7 @@ right: 40px;
 
   .hero18-para1 p {
     font-size: 22px;
-    padding-top: 75px;
+    padding-top: 100px;
     line-height: 1.6;
   }
 
@@ -2517,6 +2540,10 @@ right: 40px;
     line-height: 1.8;
   }
 
+  .hero21-image{
+background-position: -530px;
+  }
+
   .hero21-para1 {
     padding-left: 0;
     text-align: center;
@@ -2594,12 +2621,19 @@ right: 40px;
     margin-top: 50px;
   }
 
+.hero26-Image{
+
+background-position: -540px;
+}
+
   .hero26-para1 p {
     font-size: 18px;
     width: 90%;
     line-height: 1.5;
     margin: auto;
   }
+
+
 
   .faq-container {
     margin-left: 100px;
@@ -2622,6 +2656,10 @@ right: 40px;
 
   .Faqs-hero27 {
     margin-top: 70px;
+  }
+
+  .hero28-Image{
+    background-position: -540px;
   }
 
   .hero28-para1 {
@@ -2659,6 +2697,11 @@ right: 40px;
     margin: auto;
   }
 
+  .hero29-contact h2{
+  
+  padding-left: 20px;
+  }
+
   .hero29-para2 {
     width: 80%;
     margin: auto;
@@ -2677,6 +2720,8 @@ right: 40px;
 
 
 @media screen and (min-width: 581px) and (max-width: 820px) {
+
+  
   body.no-scroll {
     overflow: hidden;
   }
@@ -3507,6 +3552,8 @@ right: 40px;
     text-align: center;
     padding-top: 110px;
   }
+
+ 
 
   .hero28-para1 h1 {
     font-size: 32px;
